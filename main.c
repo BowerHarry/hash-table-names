@@ -119,7 +119,7 @@ int main() {
 
     // Open the file containing names.
 // Provide path for text file here.
-    FILE* fp = fopen("C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Names\\names.txt", "r");
+    FILE* fp = fopen("", "r");
     // Check if the file is empty / not found.
     if (fp == NULL) {
         printf("Input file not found\n");
